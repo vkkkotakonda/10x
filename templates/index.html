@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>10xCloudConsulting</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href="{{ url_for('static',filename='styles/styles.css') }}" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <section class="colored-section" id="title">
+
+    <div class="container-fluid">
+
+      <!-- Nav Bar -->
+
+      <nav class="navbar navbar-expand-lg navbar-dark">
+
+        <a class="navbar-brand" href="">10xCC</a>
+
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/careers">Careers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/contact">Contact</a>
+            </li>
+          </ul>
+
+        </div>
+      </nav>
+
+
+      <!-- Title -->
+
+      <div class="row">
+
+        <div class="col-lg-6">
+          <h1 class="big-heading">Deliver cloud projects @ 10 X speed</h1>
+        </div>
+
+        <div class="col-lg-6">
+          <img class="title-image" src="{{ url_for('static',filename='images/cloud-computing.svg') }}" alt="iphone-mockup">
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- Features -->
+
+  <section class="white-section" id="features">
+ <h2 class="section-heading">How We do</h2>
+    <div class="container-fluid">
+    <div class="column">
+      <div class="row">
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-code fa-4x"></i>
+          <h3 class="feature-title">Automate by Design</h3>
+          <p>Automate Everything & Everything Automated</p>
+        </div>
+
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-shield-check fa-4x"></i>
+          <h3 class="feature-title">Secure by Design</h3>
+          <p>Apply Principle of Least Privilage</p>
+        </div>
+
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-check-circle fa-4x"></i>
+          <h3 class="feature-title">Right First Time</h3>
+          <p>Apply Shift Left Principle to Everything</p>
+        </div>
+         <div class="feature-box col-lg-4">
+          <i class="icon fas fa-cloudscale fa-4x"></i>
+          <h3 class="feature-title">Auto Scale</h3>
+          <p>Elastic based on Demand</p>
+        </div>
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-cloudscale fa-4x"></i>
+          <h3 class="feature-title">Serverless</h3>
+          <p>Low Ops to Manage</p>
+        </div>
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-cloudscale fa-4x"></i>
+          <h3 class="feature-title">Low TCO</h3>
+          <p>Pay for what you use</p>
+        </div>
+
+      </div>
+</div>
+
+    </div>
+  </section>
+
+
+  <!-- Testimonials -->
+
+  <section class="colored-section" id="testimonials">
+
+    <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active container-fluid">
+          <h3 class="testimonial-text">Most trustworthy team members you can aspire to have: great team players, insatiable search for knowledge which he shares uncompromisingly and ability to get things done in short notice. Highly recommended.</h3>
+          <em>Data Technology Director</em>
+        </div>
+        <div class="carousel-item container-fluid">
+          <h3 class="testimonial-text">Very knowledgeable, passionate about achieving the right outcomes and seen as a trusted advisors. They always acted in the interests of the company and would frequently go above and beyond what we would have expected. </h3>
+          <em>Lead Data Architect</em>
+        </div>
+        <div class="carousel-item container-fluid">
+          <h3 class="testimonial-text">Goes the extra mile to investigate problems and come up with technical solution. The team is committed, thorough and a great team players. Highly recommended.</h3>
+          <em>Partner at Deloitte UK</em>
+        </div>
+        <div class="carousel-item container-fluid">
+          <h3 class="testimonial-text">Proactive approach, willingness to go the extra mile and detailed technical knowledge and ability was much appreciated. They also solved a number of other problems by conducting targeted pieces of work to understand the issues and then make recommendations.</h3>
+
+          <em>Senior Architect</em>
+        </div>
+
+      </div>
+      <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+
+  </section>
+
+
+
+
+  <!-- Services -->
+
+  <section class="white-section" id="services">
+
+    <h2 class="section-heading">Consulting Services</h2>
+
+    <div class="row">
+
+      <div class="services-column col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Mobile & Web Apps</h3>
+          </div>
+          <div class="card-body">
+            <p>Blah</p>
+            <p>Blah</p>
+            <p>Blah</p>
+            <button class="btn btn-lg btn-block btn-dark" type="button">Find More</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="services-column col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Security</h3>
+          </div>
+          <div class="card-body">
+
+            <p>Blah</p>
+            <p>Blah</p>
+            <p>Blah</p>
+            <button class="btn btn-lg btn-block btn-dark" type="button">Find More</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="services-column col-lg-4">
+        <div class="card">
+          <div class="card-header">
+            <h3>Networking</h3>
+          </div>
+          <div class="card-body">
+            <p>Blah</p>
+            <p>Blah</p>
+            <p>Blah</p>
+
+            <button class="btn btn-lg btn-block btn-dark" type="button">Find More</button>
+
+          </div>
+        </div>
+      </div>
+
+    <div class="services-box col-lg-12">
+      </div>
+
+      <div class="services-column col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Security</h3>
+          </div>
+          <div class="card-body">
+
+            <p>Blah</p>
+            <p>Blah</p>
+            <p>Blah</p>
+            <button class="btn btn-lg btn-block btn-dark" type="button">Find More</button>
+          </div>
+        </div>
+      </div>
+      <div class="services-column col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>DevSecOps</h3>
+          </div>
+          <div class="card-body">
+
+            <p>Blah</p>
+            <p>Blah</p>
+            <p>Blah</p>
+            <button class="btn btn-lg btn-block btn-dark" type="button">Find More</button>
+          </div>
+        </div>
+      </div>
+      <div class="services-column col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>MLOps</h3>
+          </div>
+          <div class="card-body">
+
+            <p>Blah</p>
+            <p>Blah</p>
+            <p>Blah</p>
+            <button class="btn btn-lg btn-block btn-dark" type="button">Find More</button>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
+  </section>
+
+
+  <!-- Call to Action -->
+
+  <section class="colored-section" id="cta">
+
+    <div class="container-fluid">
+
+      <h3 class="big-heading">Get in Touch to Talk to an Expert Today.</h3>
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer class="white-section" id="footer">
+    <div class="container-fluid">
+      <a href="mailto:kiran@10xcloudconsulting.com" class="social-icon fas fa-envelope"></a>
+      <a href="https://twitter.com/kirankv/" target="_blank" class="social-icon fab fa-twitter"></a>
+      <a href="https://www.linkedin.com/in/kirankumarkv/" target="_blank" class="social-icon fab fa-linkedin"></a>
+
+      <p>© Copyright 2021 10xCloudConsulting. All rights reserved</p>
+    </div>
+  </footer>
+
+
+</body>
+
+</html>
